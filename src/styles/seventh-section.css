@@ -1,0 +1,133 @@
+.seventh-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.seventh-section__title {
+  color: white;
+  font-size: 24px;
+  margin-top: 54px;
+  font-weight: 600;
+  width: calc(100% - 406px);
+}
+
+.seventh-section__paragraph {
+  margin-top: 15px;
+  color: #B9C5E1;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  width: calc(100% - 406px);
+}
+
+.seventh-section__table {
+  width: calc(100% - 211px);
+  display: flex;
+  flex-direction: column;
+  background-color: #353D52;
+  margin-top: 53px;
+  border-radius: 17px;
+}
+
+.seventh-section__table-titles {
+  display: flex;
+  background-color: #1D222F;
+  align-items: center;
+  padding-left: 60px;
+  border-radius: 17px 17px 0 0;
+}
+
+.seventh-section__table-descriptions {
+  display: flex;
+  padding-bottom: 16px;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.seventh-section__table-description {
+  color: white;
+  padding: 13px 20px 0 5px;
+  width: 20%;
+  line-height: 21px;
+}
+
+.seventh-section__table-title {
+  color: white;
+  width: 20%;
+  padding: 13px 20px 13px 5px;
+}
+
+@media (max-width: 1200px) {
+  .seventh-section {
+    margin-left: 99px;
+    margin-right: 116px;
+  }
+
+  .seventh-section__title {
+    width: calc(100% - 215px);
+  }
+
+  .seventh-section__paragraph {
+    width: calc(100% - 215px);
+  }
+
+  .seventh-section__table-descriptions {
+    align-items: start;
+    padding-left: 30px;
+  }
+
+  .seventh-section__table-description {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .seventh-section__table-titles {
+    padding-left: 30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 720px) {
+  .seventh-section {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .seventh-section__title {
+    font-size: 18px;
+  }
+
+  .seventh-section__table {
+    overflow: auto;
+    width: calc(100% - 32px);
+    font-size: 13px;
+  }
+
+  .seventh-section__table-title {
+    min-width: 100px;
+  }
+
+  .seventh-section__table-titles {
+    min-width: 530px;
+    padding-left: 15px;
+  }
+
+  .seventh-section__table-descriptions {
+    padding-left: 15px;
+  }
+
+  .seventh-section__table-description {
+    min-width: 100px;
+  }
+
+  .seventh-section__title {
+    width: calc(100% - 32px);
+  }
+
+  .seventh-section__paragraph {
+    width: calc(100% - 32px);
+    font-size: 13px;
+  }
+}

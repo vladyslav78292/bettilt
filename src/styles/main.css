@@ -1,0 +1,27 @@
+@import url('./header.css');
+@import url('./reset.css');
+@import url('./banner.css');
+@import url('./first-section.css');
+@import url('./second-section.css');
+@import url('./third-section.css');
+@import url('./fourth-section.css');
+@import url('./fifth-section.css');
+@import url('./sixth-section.css');
+@import url('./seventh-section.css');
+@import url('./eighth-section.css');
+@import url('./ninth-section.css');
+@import url('./tenth-section.css');
+@import url('./eleventh-section.css');
+@import url('./twelfth-section.css');
+@import url('./thirteenth-section.css');
+@import url('./questions.css');
+@import url('./footer.css');
+
+.main {
+  background-color: #232939;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
