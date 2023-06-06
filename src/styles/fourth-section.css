@@ -1,7 +1,7 @@
 .fourth-section {
   width: auto;
-  margin-left: 203px;
-  margin-right: 223px; 
+  margin-left: 99px;
+  margin-right: 116px; 
   display: flex;
   flex-direction: column;
 }
@@ -32,6 +32,10 @@
   gap: 10px;
   margin-top: 20px;
   padding-left: 30px;
+}
+
+.fourth-section__element::marker{
+  color: yellow;
 }
 
 @media (max-width: 1200px) {

@@ -1,8 +1,9 @@
 .first-section {
   width: auto;
-  margin-left: 203px;
-  margin-right: 223px;
+  margin-left: 99px;
+  margin-right: 116px;
   display: flex;
+  margin-bottom: 50px;
   flex-direction: column;
 }
 
@@ -31,13 +32,14 @@
 }
 
 .first-section__paragraph-inside-container {
-  color: #B9C5E1;
+  color: #1D222F;
   font-weight: 400;
   font-size: 15px;
   line-height: 21px;
-  background-color: #1D222F;
+  background: linear-gradient(90deg, #FFC700 0%, #FFEA21 100%), #FF9E2C;
   padding: 20px 38px;
   margin-top: 15px;
+  border-radius: 17px;
 }
 
 .first-section__autorization-info {
@@ -129,10 +131,9 @@
   display: flex;
   position: relative;
   z-index: 32;
-  top: 122px;
-  justify-content: space-between;
+  top: 152px;
+  justify-content: space-evenly;
   padding: 16px;
-  background-color: rgba(185, 197, 225, 0.15);
   border-radius: 17px;
   gap: 10px;
   white-space: nowrap;
@@ -142,7 +143,7 @@
 
 .first-section__small-image-container {
   background-color: #353D52;
-  padding: 29px 19px;
+  padding: 16px 19px;
   border-radius: 17px;
   display: flex;
   gap: 14px;
@@ -150,8 +151,6 @@
   color: white;
   align-items: center;
   font-weight: 400;
-  height: 90px;
-  width: 300px;
   justify-content: space-evenly;
 }
 
@@ -160,24 +159,20 @@
 }
 
 .first-section__small-image--message {
-  height: 32px;
+  height: 22px;
 }
 
 .first-section__small-image--phone {
-  height: 39px;
+  height: 29px;
 }
 
 .first-section__small-image--database {
-  height: 36px;
+  height: 26px;
 }
 
 .first-section__small-image-text {
   font-weight: 500;
-  font-size: 20px;
-}
-
-.first-section__small-image-container--last {
-  width: 400px;
+  font-size: 16px;
 }
 
 @media (max-width: 1200px) {
@@ -191,7 +186,7 @@
   }
 
   .first-section__small-image-container {
-    padding: 22px;
+    padding: 22px 26px;
   }
 
   .first-section__bonus-image-title {
@@ -208,7 +203,9 @@
   }
 
   .first-section__small-images-container {
-    top: 162px;
+    top: 192px;
+    justify-content: start;
+    width: 65px;
   }
 }
 
@@ -264,11 +261,23 @@
   }
 
   .first-section__small-image-container {
-    width: 65px;
-    height: 65px;
+    width: 40px;
+    height: 45px;
   }
 
   .first-section__bonus-image-title {
     font-size: 22px;
+  }
+
+  .first-section__small-image--message {
+    height: 16px;
+  }
+  
+  .first-section__small-image--phone {
+    height: 22px;
+  }
+  
+  .first-section__small-image--database {
+    height: 20px;
   }
 }

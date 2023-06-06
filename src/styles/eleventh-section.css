@@ -1,7 +1,7 @@
 .eleventh-section {
   width: auto;
-  margin-left: 203px;
-  margin-right: 223px;
+  margin-left: 99px;
+  margin-right: 116px;
   display: flex;
   flex-direction: column;
 }
@@ -23,9 +23,9 @@
 }
 
 .eleventh-section__image {
-  width: calc(100% + 215px);
-  margin-top: 20px;
-  margin-left: -99px;
+  width: 50%;
+  margin: 20px auto 0;
+  border-radius: 17px;
 }
 
 @media (max-width: 1200px) {
