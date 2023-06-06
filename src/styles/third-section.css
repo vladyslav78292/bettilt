@@ -1,7 +1,7 @@
 .third-section {
   width: auto;
-  margin-left: 203px;
-  margin-right: 223px; 
+  margin-left: 99px;
+  margin-right: 116px; 
   display: flex;
   flex-direction: column;
 }
@@ -22,8 +22,9 @@
 }
 
 .third-section__image {
-  margin-top: 15px;
-  height: 149px;
+  height: 176px;
+  width: 160px;
+  float: right;
 }
 
 .third-section__image-with-text {
@@ -44,6 +45,18 @@
 .third-section__image--second {
   margin-top:  0px;
 }
+
+.third-section__text-container {
+  gap: 10px;
+  flex-direction: column;
+  display: flex;
+}
+
+.third-section__container {
+  display: flex;
+  gap: 10px;
+}
+
 
 @media (max-width: 1200px) {
   .third-section {

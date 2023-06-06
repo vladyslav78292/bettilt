@@ -1,7 +1,7 @@
 .eighth-section {
   width: auto;
-  margin-left: 203px;
-  margin-right: 223px;
+  margin-left: 99px;
+  margin-right: 116px;
   display: flex;
   flex-direction: column;
 }
@@ -38,6 +38,13 @@
 
 .eighth-section__list {
   margin-top: 15px;
+}
+
+.eighth-section__image {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 17px;
 }
 
 @media (max-width: 1200px) {
