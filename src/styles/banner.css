@@ -283,10 +283,6 @@ button:focus {outline: none;}
 		height: 290px;
 	}
 
-	.welcome-banner {
-		height: 290px;
-	}
-
 	.welcome-banner__title {
 		font-size: 20px;
 		margin-top: 220px;
@@ -302,7 +298,7 @@ button:focus {outline: none;}
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 720px) {
 	.main__image--first {
 		background-position: 100%;
 		background-image: url('../images/main-image-mobile.png');
@@ -311,12 +307,12 @@ button:focus {outline: none;}
 
 	.main__image--second {
 		background-image: url('../images/second-slide-mobile.png');
-		background-position: 67%;
+		background-position: 100%;
 	}
 	
 	.main__image--third {
 		background-image: url('../images/third-slide-mobile.png');
-		background-position: 65%;
+		background-position: 100%;
 	}
 
 	.welcome-banner {
