@@ -16,12 +16,8 @@
 @import url('./thirteenth-section.css');
 @import url('./questions.css');
 @import url('./footer.css');
+@import url('./slider.css');
 
 .main {
-  background-color: #232939;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
 }

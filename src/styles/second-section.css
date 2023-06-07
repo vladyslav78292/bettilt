@@ -9,7 +9,6 @@
   font-weight: 600;
   font-size: 24px;
   color: white;
-  margin-top: 34px;
   width: calc(100% - 215px);
 }
 
@@ -123,11 +122,10 @@
 .second-section__table-title {
   padding: 8px 0;
   padding-left: 10px;
-  width: 180px;
 }
 
 .second-section__table-title-container {
-  width: 180px;
+  width: 170px;
   border-right: 1px solid #232939;
   padding: 8px 0;
   font-weight: 600;

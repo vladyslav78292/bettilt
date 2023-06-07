@@ -60,11 +60,6 @@
 }
 
 @media (max-width: 1200px) {
-  .seventh-section {
-    margin-left: 99px;
-    margin-right: 116px;
-  }
-
   .seventh-section__title {
     width: calc(100% - 215px);
   }
@@ -90,11 +85,6 @@
 }
 
 @media (max-width: 720px) {
-  .seventh-section {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-
   .seventh-section__title {
     font-size: 18px;
   }
