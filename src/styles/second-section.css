@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-top: -20px;
 }
 
 .second-section__title {
@@ -127,7 +128,7 @@
 .second-section__table-title-container {
   width: 170px;
   border-right: 1px solid #232939;
-  padding: 8px 0;
+  padding: 2px 0;
   font-weight: 600;
 }
 
@@ -196,6 +197,10 @@
 }
 
 @media (max-width: 720px) {
+  .second-section {
+    margin-top: -10px;
+  }
+
   .second-section__title {
     width: calc(100% - 32px);
     font-size: 18px;

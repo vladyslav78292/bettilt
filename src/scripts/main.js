@@ -265,7 +265,7 @@ $(document).ready(function(){
       speed: 700,
       slidesToShow:5,
       slidesToScroll:1,
-      pauseOnHover:false,
+      pauseOnHover:true,
       appendArrows:$(".Container .Head .Arrows"),
       prevArrow:'<span class="Slick-Prev"></span>',
       nextArrow:'<span class="Slick-Next"></span>',

@@ -91,13 +91,6 @@
   text-align: center
 }
 
-.img-fill img {
-  position: relative;
-  display: inline-block;
-  max-width: none
-}
-
-
 .Container {
   padding: 0 15px;
   margin-left: 99px;
@@ -163,7 +156,6 @@
 }
 
 .ProductBlock h3 {
-  font: 15px/36px RalewayR;
   color: #393939;
   margin-top: 5px;
   text-align: center;
@@ -180,6 +172,12 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
 }
 
+.slide {
+  background-image: url('../images/aviator.png');
+  z-index: 12px;
+  position: relative;
+}
+
 .slider__more {
   display: none;
   color: #FFD60E;
@@ -187,6 +185,86 @@
   font-weight: 400;
   position: absolute;
   right: 240px;
+}
+
+.slider__link {
+  /* position: relative; */
+  right: 120px;
+  bottom: 10px;
+}
+
+.slider__image-play {
+  width: 55px;
+  margin-bottom: 8px;
+  bottom: 68px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider__hover-image-container--first {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  font-size: 13px;
+  font-weight: 600;
+  height: calc(50%  - 5px);
+  transition: all 0.3s;
+  border-radius: 17px;
+}
+
+.slider__hover-image-container--second {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+  font-size: 13px;
+  font-weight: 600;
+  height: calc(50%  - 5px);
+  transition: all 0.3s;
+  border-radius: 17px;
+}
+
+.slider__text {
+  position: absolute;
+  bottom: 53px;
+  left: 50%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}
+
+.slider__image-play--second {
+  position: absolute;
+  border-radius: 17px;
+  bottom: 0px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.slider__hover-image-container--first:hover {
+  opacity: 1;
+  backdrop-filter: blur(3px);
+}
+
+.slider__hover-image-container--second:hover {
+  opacity: 1;
+  backdrop-filter: blur(3px);
+}
+
+.slider__play {
+  padding: 7px 20px;
+  background-color: rgba(225, 243, 247, 0.4);
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  border-radius: 17px;
 }
 
 @media (max-width: 1200px) {
