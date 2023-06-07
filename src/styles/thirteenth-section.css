@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: calc(100% - 215px);
+  margin-left: 99px;
 }
 
 .thirteenth-section__title {
@@ -33,15 +34,10 @@
   background: linear-gradient(90deg, #FFC700 0%, #FFEA21 100%), #FF9E2C;
 }
 
-@media (max-width: 1200px) {
-  .thirteenth-section {
-    width: calc(100% - 215px);
-  }
-}
-
 @media (max-width: 720px) {
   .thirteenth-section {
     width: calc(100% - 32px);
+    margin-left: 16px;
   }
 
   .thirteenth-section__title {

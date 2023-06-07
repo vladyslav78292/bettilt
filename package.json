@@ -40,6 +40,7 @@
     "projectType": "layout"
   },
   "dependencies": {
-    "re": "^0.1.4"
+    "re": "^0.1.4",
+    "slick-carousel": "^1.8.1"
   }
 }

@@ -255,3 +255,30 @@ dropdowns.forEach(dropdown => {
     });
   });
 });
+
+$(document).ready(function(){
+  if (true) {
+    $(".SlickCarousel").slick({
+      rtl:false,
+      autoplay:true, 
+      autoplaySpeed: 5000000000,
+      speed: 700,
+      slidesToShow:5,
+      slidesToScroll:1,
+      pauseOnHover:false,
+      appendArrows:$(".Container .Head .Arrows"),
+      prevArrow:'<span class="Slick-Prev"></span>',
+      nextArrow:'<span class="Slick-Next"></span>',
+      easing:"linear",
+      responsive:[
+        {breakpoint:1201,settings:{
+          autoplaySpeed: 5000,
+          slidesToShow:3,
+        }},
+        {breakpoint:721,settings:{
+          slidesToShow:2,
+        }},
+      ],
+    })
+  }
+})
