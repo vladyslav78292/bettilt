@@ -218,6 +218,21 @@ button:focus {outline: none;}
 	transform: translateY(-50%);
 }
 
+.main__image--first {
+	background-color: #0026F5;
+	background-repeat: no-repeat;
+}
+
+.main__image--second {
+	background-color: #0026F5;
+	background-repeat: no-repeat;
+}
+
+.main__image--third {
+	background-color: #0026F5;
+	background-repeat: no-repeat;
+}
+
 @media (max-width: 1260px) {
   .welcome-banner__features {
     display: none;
@@ -239,25 +254,29 @@ button:focus {outline: none;}
 @media (max-width: 720px) {
 	.main__image {
 		background-position: 100%;
-		background-size: cover;
-		background-color: #0026F5;
-		background-repeat: no-repeat;
 	}
+
 	.main__image--first {
 		background-image: url('../images/main-image-tablet.png');
 		background-size: contain;
+		background-color: #0026F5;
+		background-repeat: no-repeat;
 	}
 
 	.main__image--second {
 		background-image: url('../images/second-slide-tablet.png');
 		background-size: contain;
 		background-position: 100% 40px;
+		background-color: #0026F5;
+		background-repeat: no-repeat;
 	}
 	
 	.main__image--third {
 		background-image: url('../images/third-slide-tablet.png');
 		background-size: contain;
 		background-position: 100% 50px;
+		background-color: #0026F5;
+		background-repeat: no-repeat;
 	}
 
 	.welcome-banner__title {

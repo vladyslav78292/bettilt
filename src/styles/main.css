@@ -17,6 +17,7 @@
 @import url('./questions.css');
 @import url('./footer.css');
 @import url('./slider.css');
+@import url('./buttons.css');
 
 .main {
   width: 100%;
