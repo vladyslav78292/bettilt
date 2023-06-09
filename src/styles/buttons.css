@@ -2,6 +2,9 @@
   display: none;
 }
 
+.fixed__button {
+  z-index: 100;
+}
 @media (max-width: 720px) {
   .fixed__button {
     background-color: white;
