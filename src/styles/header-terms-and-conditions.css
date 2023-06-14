@@ -1,0 +1,22 @@
+.header-terms-and-conditions {
+  margin-top: 14px;
+  margin-left: 99px;
+}
+
+.header-terms-and-conditions__logo-link {
+  width: 100%;
+}
+
+.header-terms-and-conditions__logo {
+  width: 125px;
+}
+
+@media (max-width: 720px) {
+  .header-terms-and-conditions {
+    margin-left: 16px;
+  }
+
+  .header-terms-and-conditions__logo {
+    width: 88px;
+  }
+}

@@ -1,0 +1,36 @@
+.section {
+  margin-left: 99px;
+  margin-right: 116px;
+}
+
+.section__title {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.section__paragraph {
+  font-size: 16px;
+  color: rgb(185, 197, 225);
+  margin-top: 16px;
+  line-height: 21px;
+}
+
+@media (max-width: 720px) {
+  .section {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .section__title {
+    font-size: 18px;
+  }
+
+  .section__paragraph {
+    font-size: 13px;
+  }
+}
