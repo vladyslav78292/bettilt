@@ -11,17 +11,17 @@
 }
 
 .main__image--first {
-	background-image: url('../images/main_image.png');
+	background-image: url('../images/main_image.jpg');
 	background-position: 60% 35%;
 }
 
 .main__image--second {
-	background-image: url('../images/image_second-slide.png');
+	background-image: url('../images/image_second-slide.jpg');
 	background-position: 60% 35%;
 }
 
 .main__image--third {
-	background-image: url('../images/image_third-slide.png');
+	background-image: url('../images/image_third-slide.jpg');
 	background-position: 60% 35%;
 }
 
